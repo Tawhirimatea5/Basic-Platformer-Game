@@ -1,15 +1,14 @@
-// Jim Whitehead
+// Vincent Stuhlmuller
 // Created: 4/14/2024
 // Phaser: 3.70.0
 //
-// Cubey
+// Basic Platformer Game with VFX and Audio
 //
-// An example of putting sprites on the screen using Phaser
 // 
-// Art assets from Kenny Assets "Shape Characters" set:
-// https://kenney.nl/assets/shape-characters
+// Art and Audio assets from Kenny Assets sets:
+// https://kenney.nl/assets
 
-// debug with extreme prejudice
+// debug
 "use strict"
 
 // game config
@@ -31,7 +30,7 @@ let config = {
     },
     width: 1440,
     height: 900,
-    scene: [Load, Platformer]
+    scene: [Load, Platformer,EndScene]
 }
 
 var cursors;
